@@ -1,0 +1,83 @@
+
+
+
+html {
+	font-size: 1rem;
+	font-family: sans-serif;
+}
+
+
+
+div {
+	color: #ff0000;
+	font-size: 2.5rem;
+	font-weight: bolder;
+	line-height: 5rem;
+}
+
+#german {
+	color: rgba(10,10,0,0.1);
+	font-size: 1.5rem;
+	font-weight: bolder;
+	margin-top: -4rem;
+	margin-bottom: -1.5rem;
+	font-style: italic;
+}
+
+#credits {
+	color: black;
+	font-size: 0.75rem;
+	font-weight: bolder;
+	line-height: 3.8rem;
+	margin-top: -2rem;
+	margin-bottom: -2.9rem;
+	margin-left: 3rem;
+}
+
+#krusty {
+	margin-bottom: 15rem;
+}
+
+
+.stanza {
+	color: #ff0000;
+	font-size: 2.5rem;
+	font-weight: bolder;
+	line-height: 3.8rem;
+	margin-bottom: 6rem;
+
+}
+
+h1 {
+	font-family: Sans-Serif;
+	font-weight: bold;
+	font-size: 10.5rem;
+	color: white;
+}
+
+
+body {   
+    background-color: rgba(198,198,198,1);
+}
+
+body {
+background-image: url("https://i.imgur.com/U9WrRYZ.gif");
+
+height: 100%; 
+
+background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(244, 241, 0, 0.92);
+}
