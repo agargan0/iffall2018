@@ -1,49 +1,317 @@
+
+
+
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Police File </title>
+	<head>
+		<title> Image Format Comparissons </title>
+		<style>
 
-	<style type="text/css" media="screen">
-    html {
-    	
-      -ms-text-size-adjust: 100%; 
-      -webkit-text-size-adjust: 100%;
+			body {
+				font-family: "Arial", sans-serif;
+				padding: 30px;
+			}
 
-      
-      font-size: 62.5%; 
-    }
+			h1 {
+				margin: 0 0 6px 0;
+			}
 
-    body {
-      font-size: 1.75rem;
-      line-height: 1.6;
-      font-weight: 400;
-      margin: 7;
-	  font-family:serif;
-    }
+			h2 {
+				margin: 0 0 30px 0;
+			}
 
-    p {
-      margin-top: 1rem; }
-      
-   
+			table {
+			}
 
-    h1 {
-      margin-top: 0;
-      margin-bottom: 2rem;
-      font-size: 2.4rem;
-      line-height: 1.35; 
-    }
-    
-  </style>
-</head>
+			td, th {
+				background-color: #eee;
+				padding: 30px;
+				margin: 2px;
+				text-align: center;
+				vertical-align: middle;
+			}
+
+			.blank {
+				background-color: transparent;
+			}
+
+			.label {
+				background-color: #3997b6;
+				color: #fff;
+				font-weight: bold;
+				font-size: 16px;
+			}
+
+			.label.optimized {
+				background-color: #39b64e;
+			}
+
+			.note {
+				font-size: 14px;
+				font-weight: normal;
+				font-style: italic;
+			}
+
+			div.note {
+				margin-top: 5px;
+			}
+
+			img {
+				width: 300px;
+				height: 300px;
+			}
+
+		</style>
+	</head>	
+
 <body>
-	<h1>Hiya Friends</h1>
-<p> 1. I'm Alexander R. Gargano a Junior in Communication Design at Washington University in St. Louis. </p>
-<p> 2. I was born in Chicago, Il. and would love to be an illustrator after graduation or at least a junkie who can make a mean magazine spread. I'm taking this class for all the obvious reasons (creditz) yes, but I am also very interested in the direction visual and communicative arts is heading in the 21st century, which means having the basic of grasps in coding. 
-<p> 3. Other than the simplest webpage designs or using inspect on sentences to change them for comedic effect, I have relatively little experience in HTML style coding. </p>
-<p> 4. I'd be more than happy if I left the class with the ability to code an engaging interface for any type of website.</p>
-<p> 5. A piece of art scanned onto a screen is so less interesting than seeing its counterpart in real life. People's attention spans are a lot shorter online than when not glaring at a screen, so visually engaging the audience will need to be approached with different methods.</p>
-<p> 6. https://myspace.com Bring it back baby!! </p>
-<p> 7. Can I say https://wikipedia.org without it being cheating? Because I still to this day read the Wikipedia after I read anything else, just to make sure I got 100% of the information.  </p>
-<p> 8. https://zorbasismissing.com I stumbled across this website —run by the Greek type foundry Karlopoulos&Associates— in downtown Athens by scanning a QR code graffiti sticker. The combination of off-screen interaction, sleek design and seeming pointlessness all add up to a tiny gem of a website. (or any website that allows AdBlock honestly.)
+	<h1>Image Format Comparissons</h1>
+	<h2>Alex Gargano</h2>
+	<table>
+		<tbody>
+
+
+				<tr>
+					<td class="label"> Original </td>
+
+
+					<td>
+						<img src="images/sign_original.jpg" alt="sign - Original">
+						<div class="note">115KB</div>
+					</td>
+					<td>
+						<img src="images/hanks_original.jpg" alt="sign - Original">
+						<div class="note">49.4KB</div>
+					</td>
+					<td>
+						<img src="images/wings_original.svg" alt="sign - Original">
+						<div class="note">5.08KB</div>
+					</td>
+				</tr>
+
+
+				<tr>
+					<td class="label"> Gif 16
+							<span class="note">(with transparency)</span>
+
+					</td class="label">
+
+
+					<td>
+						<img src="images/sign_original16.gif" alt="sign - 16 Colors">
+						<div class="note">21KB</div>
+					</td>
+					<td>
+						<img src="images/hanks_original16.gif" alt="sign - 16 Colors">
+						<div class="note">16KB</div>
+					</td>
+					<td>
+						<img src="images/wings_original16.gif" alt="sign - 16 Colors">
+						<div class="note">4KB</div>
+					</td>
+				</tr>
+
+
+				<tr>
+					<td class="label"> Gif 256
+						<span class="note">(with transparency)</span>
+
+					</td class="label">
+
+
+					<td>
+						<img src="images/sign_original256.gif" alt="sign - 256 Colors">
+						<div class="note">57KB</div>
+					</td>
+					<td>
+						<img src="images/hanks_original256.gif" alt="sign - 256 Colors">
+						<div class="note">45KB</div>
+					</td>
+					<td>
+						<img src="images/wings_original256.gif" alt="sign - 256 Colors">
+						<div class="note">4KB</div>
+					</td>
+				</tr>
+
+
+				<tr>
+					<td class="label">JPEG Low
+						<span class="note">(10%)</span>
+
+					</td class="label">
+
+
+					<td>
+						<img src="images/sign_originalLOW.jpg" alt="sign - Low Quality">
+						<div class="note">12KB</div>
+					</td>
+					<td>
+						<img src="images/hanks_originalLOW.jpg" alt="sign - Low Quality">
+						<div class="note">6KB</div>
+					</td>
+					<td>
+						<img src="images/wings_originalLOW.jpg" alt="sign - Low Quality">
+						<div class="note">11KB</div>
+					</td>
+				</tr>
+
+
+				<tr>
+					<td class="label">JPEG Very High
+						<span class="note">(80%)</span>
+					</td class="label">
+
+
+					<td>
+						<img src="images/sign_originalHIGH.jpg" alt="sign - Very High Quality">
+						<div class="note">58KB</div>
+					</td>
+					<td>
+						<img src="images/hanks_originalHIGH.jpg" alt="sign - Very High Quality">
+						<div class="note">27KB</div>
+					</td>
+					<td>
+						<img src="images/wings_originalHIGH.jpg" alt="sign - Very High Quality">
+						<div class="note">35KB</div>
+					</td>
+				</tr>
+
+
+				<tr>
+					<td class="label"> PNG-8 </td>
+
+
+					<td>
+						<img src="images/sign_original-8.png" alt="sign - PNG-8">
+						<div class="note">52KB</div>
+					</td>
+					<td>
+						<img src="images/hanks_original-8.png" alt="sign - PNG-8">
+						<div class="note">4KB</div>
+					</td>
+					<td>
+						<img src="images/wings_original-8.png" alt="sign - PNG-8">
+						<div class="note">31KB</div>
+					</td>
+				</tr>
+
+
+				<tr>
+					<td class="label">PNG-24
+						<span class="note">(without transparency)</span>
+					</td class="label">
+
+
+					<td>
+						<img src="images/sign_originalSansparent.png" alt="sign - Opaque">
+						<div class="note">177KB</div>
+					</td>
+					<td>
+						<img src="images/hanks_originalSansparent.png" alt="sign - Opaque">
+						<div class="note">97KB</div>
+					</td>
+					<td>
+						<img src="images/wings_originalSansparent.png" alt="sign - Opaque">
+						<div class="note">31KB</div>
+					</td>
+				</tr>
+
+
+				<tr>
+					<td class="label">PNG-24
+						<span class="note">(with transparency)</span>
+
+					</td class="label">
+
+
+					<td>
+						<img src="images/sign_originalTransparent.png" alt="sign - Transparent">
+						<div class="note">177KB</div>
+					</td>
+					<td>
+						<img src="images/hanks_originalTransparent.png" alt="sign - Transparent">
+						<div class="note">109KB</div>
+					</td>
+					<td>
+						<img src="images/wings_originalTransparent.png" alt="sign - Transparent">
+						<div class="note">23KB</div>
+					</td>
+				</tr>
+
+
+				<tr>
+						<td class="label"> SVG </td>
+
+
+
+					<td>
+						<img src="images/sign_original.svg" alt="sign - SVG">
+						<div class="note">???KB</div>
+					</td>
+					<td>
+						<img src="images/hanks_original.svg" alt="sign - SVG">
+						<div class="note">???KB</div>
+					</td>
+					<td>
+						<img src="images/wings_original.svg" alt="sign - SVG">
+						<div class="note">5.08KB</div>
+					</td>
+				</tr>
+
+
+				<tr>
+					<td class="label"> Optimized
+						<span class="note">(I Chose!)</span>
+
+					</td class="label">
+
+
+					<td>
+						<img src="images/sign_originalTransparent.png" alt="sign - Mine">
+						<div class="note">177KB</div>
+					</td>
+					<td>
+						<img src="images/hanks_original-8.png" alt="sign - Mine ">
+						<div class="note">4KB</div>
+					</td>
+					<td>
+						<img src="images/wings_originalTransparent.png" alt="sign - Mine">
+						<div class="note">23KB</div>
+					</td>
+				</tr>
+		</tbody>
+
+	</table>
+
 </body>
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
