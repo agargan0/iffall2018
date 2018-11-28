@@ -1,0 +1,225 @@
+
+#prickly {
+	font-size: 15rem;
+	letter-spacing: .7rem;
+	margin-top: -34rem;
+	font-weight: bold;
+	color: rgb(215,137,255);
+}
+
+h1 {
+	font-family: "Amatic SC";
+	font-size: 6rem;
+}
+
+
+h2 {
+	font-size: 2.5rem;
+	margin-bottom: 25rem;
+	margin-top: -12rem;
+	font-family: "Amatic SC";
+	letter-spacing: 4px;
+}
+
+h3 {
+	font-family: "Amatic SC";
+	font-size: 3rem;
+	margin-bottom: -8rem;
+}
+
+div .white {
+	color: white;
+	margin-top: 2rem;
+	height: 50rem;
+
+}
+
+.grey {
+	height: 2rem;
+	color: gray;
+	margin-bottom: 5rem;
+}
+
+#welcome {
+	margin-bottom: 16rem;
+}
+
+#welcome1 {
+	width: 37rem;
+	height: 15rem;
+	margin-left: 4rem; 
+	margin-top: -2rem;
+}
+
+#cult1 {
+	width: 37rem;
+	height: 15rem;
+	margin-right: 16rem;
+	margin-top: -2.5rem;
+	float: right;
+}
+
+#cultivation {
+	margin-bottom: 25rem;
+}
+
+#app1 {
+	float: center;
+	background-color: white;
+	width: 23rem;
+	height: 15rem;
+	margin-top: -27rem;
+	margin-bottom: 20rem;
+}
+
+#def {
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+#hab1 {
+	width: 37rem;
+	height: 15rem;
+	margin-left: 4rem; 
+	margin-top: -2rem;
+	margin-right: 3rem;
+	margin-bottom: 8rem;
+}
+
+#footer {
+	background-color: gray;
+	color: gray;
+	width: 101.45%;
+	margin-left:-1rem;
+	margin-top: 2rem;
+	padding-top: .5rem;
+	padding-bottom: 1rem;
+}
+
+#sources {
+	float: right;
+	font-style: italic;
+	margin-top: -2rem;
+	margin-right: .5rem;
+}
+
+
+p {
+	font-family:"Arial";
+}
+
+#map {
+	width: 1400px;
+	margin-bottom:5rem;
+}
+
+.Fmap {
+	width: 1400px;
+	margin-top: -55.1rem;
+	margin-bottom: 40rem;
+	margin-left: 5.5rem;
+}
+
+.Smap {
+	width: 1400px;
+	margin-top: -55.1rem;
+	margin-bottom: 40rem;
+	margin-left: -27rem;
+}
+
+.Tmap {
+	width: 1400px;
+	margin-top: -55.1rem;
+	margin-bottom: 40rem;
+	margin-left: -59.5rem;
+}
+
+.buttons {
+	background-color:rgb(233,233,233);
+
+}
+
+#bannerimage {
+	width: 101.45%;
+	margin-top:-1rem ;
+	margin-left:-1rem;
+}
+
+#AppBanner {
+	width: 101.45%;
+	margin-top:-1rem ;
+	margin-left:-1rem;
+}
+
+section.buttons::after {
+  clear: both;
+  display: table;
+}
+
+
+.buttonz {
+	width:140px;
+	height:140px;
+	border-radius: 50%;
+}
+
+.button_container {
+  position: relative;
+  width: 25%;
+  float: left;
+ }
+
+ .species {
+  position: relative;
+  width: 33%;
+  float: left;
+ }
+
+ #S-H {
+ 	margin-left: 5.5rem;
+ }
+
+ .species:hover .region {
+        transform: scale(1);
+        display: block;
+}
+
+.region {
+	display: none;
+}
+
+#habpic {
+	width:40%;
+	margin-left: 55%;
+	margin-top:-25rem;
+}
+
+
+.button_container:hover .overlay {
+        transform: scale(1);
+}
+
+.overlay {
+        position: center;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(255,255,255,.75);
+        overflow: hidden;
+        width: 145px;
+        height: 145px;
+        transform: scale(0);
+        transition: .50s ease;
+        border-radius: 50%;
+        margin-top: -9.18rem;
+}
+
+#sbutton {
+        color: black;
+        font-family: "Arial";
+        font-size: 1.5rem;
+        text-align:center;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
