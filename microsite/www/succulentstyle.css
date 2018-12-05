@@ -4,7 +4,7 @@
 	letter-spacing: .7rem;
 	margin-top: -34rem;
 	font-weight: bold;
-	color: rgb(215,137,255);
+	color: white;
 }
 
 h1 {
@@ -19,12 +19,23 @@ h2 {
 	margin-top: -12rem;
 	font-family: "Amatic SC";
 	letter-spacing: 4px;
+	color: white;
 }
 
 h3 {
 	font-family: "Amatic SC";
 	font-size: 3rem;
 	margin-bottom: -8rem;
+}
+
+h4 {
+	font-family: "Amatic SC";
+	font-size: 2.5rem;
+}
+
+.species p {
+	font-size: 1.25rem;
+	margin-top: -1.75rem;
 }
 
 div .white {
